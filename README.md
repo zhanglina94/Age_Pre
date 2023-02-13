@@ -11,4 +11,4 @@
 - STAP:利用swin transformer 进行年龄预测
 - CNAP:利用ConvNeXt 进行年龄预测
 - RNAP:利用ResNet 进行年龄预测
-- RSFT:利用ResNet 进行年龄预测，添加注意力机制CBAM。
+- RNFT:利用ResNet 进行年龄预测，添加注意力机制CBAM。
