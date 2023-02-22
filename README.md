@@ -10,7 +10,8 @@
 ### Model
 - STAP:利用swin transformer 进行年龄预测
 - CNAP:利用ConvNeXt 进行年龄预测
-- RNAP:利用ResNet34 进行年龄预测
+- RNAP:利用ResNet34 进行年龄预测(17/1/2023)
+  - 修改CELoss->FocalLoss(2/22/2023)
 - RNFT:利用ResNet50 进行年龄预测，并添加注意力机制CBAM。
 
 ### Train
