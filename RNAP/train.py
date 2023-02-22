@@ -9,7 +9,7 @@ from torchvision import transforms, datasets
 from tqdm import tqdm
 
 from model import resnet34
-
+from FocalLoss import FocalLoss
 
 def main():
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -73,6 +73,8 @@ def main():
 
     # define loss function
     loss_function = nn.CrossEntropyLoss()
+#######################FocalLoss函数修改#################################
+    #loss_function = FocalLoss()
 
     # construct an optimizer
     params = [p for p in net.parameters() if p.requires_grad]
