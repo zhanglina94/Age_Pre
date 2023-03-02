@@ -3,10 +3,15 @@
 
 
 ### Dataset
+
+##### 1.自己的数据集
 数据集样本不均衡，且对年龄分为不同类
   - 8 kind of ages
   - 79 kind of ages
-  
+ 
+##### 2.UTKFace
+
+
 ### Model
 - STAP:利用swin transformer 进行年龄预测
 - CNAP:利用ConvNeXt 进行年龄预测
